@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>RadialBallBearing.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html">DefectsRadialBallBearing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#._defectExternalRing">_defectExternalRing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#._defectInnerRing">_defectInnerRing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#._defectRollingElement">_defectRollingElement</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#._pointerFrom">_pointerFrom</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#._pointerIn">_pointerIn</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#.externalRing">externalRing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#.externalRingDistortion">externalRingDistortion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#.innerRing">innerRing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#.innerRingDistortion">innerRingDistortion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#.misalignment">misalignment</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DefectsRadialBallBearing.html#.rollingElement">rollingElement</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html">DrawRadialBallBearing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#._gradientParameters">_gradientParameters</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.center">center</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.drawList">drawList</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.externalRing">externalRing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.innerRing">innerRing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.rollingElement">rollingElement</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.rollingElementsBorders">rollingElementsBorders</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawRadialBallBearing.html#.selectElement">selectElement</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DrawScalingConventions.html">DrawScalingConventions</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawScalingConventions.html#.borders">borders</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawScalingConventions.html#.doubleSidedArrow">doubleSidedArrow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawScalingConventions.html#.sizeInText">sizeInText</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="DrawVectorLoadRadialBallBearing.html">DrawVectorLoadRadialBallBearing</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawVectorLoadRadialBallBearing.html#._alfaArrow">_alfaArrow</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawVectorLoadRadialBallBearing.html#._arrowVectorLoad">_arrowVectorLoad</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawVectorLoadRadialBallBearing.html#._drawLoadLines">_drawLoadLines</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawVectorLoadRadialBallBearing.html#.circularProtractor">circularProtractor</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="DrawVectorLoadRadialBallBearing.html#.vectorLoad">vectorLoad</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="module.exports_module.exports.html">exports</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">RadialBallBearing.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import DrawRadialBallBearing from './DrawRadialBallBearing';
+import DrawDefectsRadialBallBearing from './DrawDefectsRadialBallBearing';
+import DrawVectorLoadRadialBallBearing from './DrawVectorLoadRadialBallBearing';
+import DrawScalingConventions from './DrawScalingConventions';
+
+/**
+ * Класс, представляющий радиальный шариковый подшипник.
+ * @module DrawVectorLoadRadialBallBearing
+ * @class 
+ */
+export default class RadialBallBearing {
+
+    static #instance;
+
+    /**
+     * Получение экземпляра класса (singleton).
+     * @method
+     * @memberof RadialBallBearing
+     * @returns {RadialBallBearing} Экземпляр класса RadialBallBearing.
+     */
+    static getInstanse() {
+        if (!RadialBallBearing.instance) {
+            RadialBallBearing.instance = new RadialBallBearing();
+        }
+        return RadialBallBearing.instance;
+    }
+
+    /**
+     * Создание холста для отображения подшипника.
+     * @method
+     * @memberof RadialBallBearing
+     * @param {HTMLCanvasElement} canvas - Элемент холста.
+     */
+    createCanvasBearing(canvas) {
+        this.context = canvas.getContext('2d');
+        this.drawBearing = new DrawRadialBallBearing(this.context)
+        this.drawDefectsBearing = new DrawDefectsRadialBallBearing(this.context);
+        this.drawVectorLoad = new DrawVectorLoadRadialBallBearing(this.context);
+        this.drawScalingConventions = new DrawScalingConventions(this.context);
+    }
+
+    /**
+      * Создает экземпляр автомобиля.
+      * @constructor
+      */
+    constructor() {
+        this.statusCreateParams = false;
+        this.angleOffsetShaft = 0
+        this.angleOffsetSeparator = 0;
+        this.angleOffsetRollingElement = 0;
+        this.anglesNewDefectsInnerRing = [];
+        this.anglesNewDefectsExternalRing = [];
+        this.anglesAndNumbersNewDefectRollingElement = [];
+        this.tiltAndAngleInnerDirection = null;
+        this.tiltAndAngleExternalDirection = null;
+        this.tiltMisalignment = null;
+    }
+
+    /**
+     * Инициализация параметров подшипника.
+     * @method
+     * @memberof RadialBallBearing
+     * @param {string} rotationRing - Направление вращения кольца ('internal' или 'external').
+     * @param {number} rpm - Обороты в минуту.
+     * @param {number} externalRingDiameter - Диаметр внешнего кольца.
+     * @param {number} innerRingDiameter - Диаметр внутреннего кольца.
+     * @param {number} rollingElementDiameter - Диаметр тела качения.
+     * @param {number} externalRingThickness - Толщина внешнего кольца.
+     * @param {number} innerRingThickness - Толщина внутреннего кольца.
+     * @param {number} numberOfRollingElements - Количество тел качения.
+     * @param {number} numberOfRollingElementFaces - Число граней тел качения.
+     * @param {number} contactAngleOfRollingElements - Угол контакта тел качения.
+     * @param {number} elasticModulus - Модуль упругости.
+     * @param {number} specificDensityOfRollingElement - Удельная плотность тела качения.
+     * @param {number} vectorLoad - Векторная нагрузка.
+     */
+    setNewStartParams(
+        rotationRing, // Вращение кольца
+        rpm, // Обороты в минуту
+        externalRingDiameter, // диаметр внешнего кольца
+        innerRingDiameter, // диаметр внутреннего кольца
+        rollingElementDiameter, // диаметр тела качения
+        externalRingThickness, // Толщина внешнего кольца
+        innerRingThickness, // Толщина внутреннего кольца
+        numberOfRollingElements, // количество тел качения
+        numberOfRollingElementFaces, // число граней тел качения
+        contactAngleOfRollingElements, // угол контакта тел качения
+        elasticModulus, // модуль упругости
+        specificDensityOfRollingElement, // удельная плотность тела качения
+        vectorLoad // векторная нагрузка
+    ) {
+        // Сбрасываем все предыдущие параметры
+        this.angleOffsetShaft = 0;
+        this.angleOffsetSeparator = 0;
+        this.angleOffsetRollingElement = 0;
+        this.anglesNewDefectsInnerRing = [];
+        this.anglesNewDefectsExternalRing = [];
+        this.anglesAndNumbersNewDefectRollingElement = [];
+        this.tiltAndAngleInnerDirection = null;
+        this.tiltAndAngleExternalDirection = null;
+        this.tiltMisalignment = null;
+
+        // Задаем параметры вращения
+        this.rotationRing = rotationRing;
+        this.rotationSign = this.rotationRing === 'internal' ? -1 : 1; // Знак вращения
+
+        // Задаем параметры деталей подшипника
+        this.realExternalRingDiameter = +externalRingDiameter;  // диаметр внешнего кольца внешней стенки
+        this.realInnerRingDiameter = +innerRingDiameter; // диаметр внутреннего кольца внутренней стенки
+        this.realRollingElementDiameter = +rollingElementDiameter; // диаметр тела качения
+        this.realInnerRingThickness = +innerRingThickness; // толщина внутреннего кольца
+        this.realExternalRingThickness = +externalRingThickness; // толщина внешнего кольца
+
+        // Задаем коэффициент масштабирования и масштабируем размеры деталей
+        this.scaleOuterRing = 400; // масштаб внешнего кольца
+        this.scalingFactor = this.scaleOuterRing / +externalRingDiameter;
+        this.rpm = +rpm;
+        this.externalRingDiameter = +externalRingDiameter * this.scalingFactor;
+        this.innerRingDiameter = +innerRingDiameter * this.scalingFactor;
+        this.rollingElementDiameter = +rollingElementDiameter * this.scalingFactor;
+        this.innerRingThickness = +innerRingThickness * this.scalingFactor;
+        this.externalRingThickness = +externalRingThickness * this.scalingFactor;
+        this.vectorLoad = +vectorLoad;
+
+        // Задаем радиусы деталей
+        this.rollingElementRadiusX = this.rollingElementDiameter / 2;
+        this.rollingElementRadiusY = this.rollingElementDiameter / 2;
+        this.externalRingRadiusXExternalSide = this.externalRingDiameter / 2;
+        this.externalRingRadiusYExternalSide = this.externalRingDiameter / 2;
+        this.externalRingRadiusXInnerSide = this.externalRingRadiusXExternalSide - this.externalRingThickness - this.rollingElementDiameter / 5;
+        this.externalRingRadiusYInnerSide = this.externalRingRadiusYExternalSide - this.externalRingThickness - this.rollingElementDiameter / 5;
+        this.innerRingRadiusXInnerSide = this.innerRingDiameter / 2;
+        this.innerRingRadiusYInnerSide = this.innerRingDiameter / 2;
+        this.innerRingRadiusXExternalSide = this.innerRingRadiusXInnerSide + this.innerRingThickness + this.rollingElementDiameter / 5;
+        this.innerRingRadiusYExternalSide = this.innerRingRadiusYInnerSide + this.innerRingThickness + this.rollingElementDiameter / 5;
+
+        // Задаем радиусы границ тела качения
+        this.rollingElementsExternalBorderRadiusX = this.externalRingRadiusXExternalSide - this.externalRingThickness; // Радиус внешней границы тела качения
+        this.rollingElementsExternalBorderRadiusY = this.externalRingRadiusYExternalSide - this.externalRingThickness; // Радиус внешней границы тела качения
+        this.rollingElementsInnerBorderRadiusX = this.innerRingRadiusXInnerSide + this.innerRingThickness; // Радиус внутренней границы тела качения
+        this.rollingElementsInnerBorderRadiusY = this.innerRingRadiusYInnerSide + this.innerRingThickness; // Радиус внутренней границы тела качения
+
+        // Вычисляем радиус сепаратора
+        this.separatorRadiusX = (this.rollingElementsExternalBorderRadiusX + this.rollingElementsInnerBorderRadiusX) / 2;
+        this.separatorRadiusY = (this.rollingElementsExternalBorderRadiusY + this.rollingElementsInnerBorderRadiusY) / 2;
+        this.separatorDiameterX = this.separatorRadiusX * 2;
+        this.separatorDiameterY = this.separatorRadiusY * 2;
+
+        // Задаем остальные параметры
+        this.numberOfRollingElements = numberOfRollingElements;
+        this.numberOfRollingElementFaces = numberOfRollingElementFaces;
+        this.contactAngleOfRollingElements = contactAngleOfRollingElements;
+        this.elasticModulus = elasticModulus;
+        this.specificDensityOfRollingElement = specificDensityOfRollingElement;
+
+        // Вычисляем частоты
+        this.shaftFrequency = this.rpm / 60; // Частота вала в секундах
+        this.separatorFrequency = this.shaftFrequency *
+            (1 / 2 * (1 + this.rotationSign * this.rollingElementDiameter /
+                this.separatorDiameterX * Math.cos(this.contactAngleOfRollingElements))); // Частота сепаратора
+        this.rollingElementFrequency = this.shaftFrequency * this.separatorDiameterX
+            / (1 * this.rollingElementDiameter) * (1 - (this.rollingElementDiameter
+                / this.separatorDiameterX * Math.cos(this.contactAngleOfRollingElements)) ** 2); // Частота тел качения
+
+        // Устанавливаем статус параметров
+        this.statusCreateParams = true;
+    }
+
+    /**
+      * Выбор элемента и перерисовка.
+      * @method
+      * @memberof RadialBallBearing
+      * @param {string} element - Название выбранного элемента (например, 'innerRing', 'externalRing', 'rollingElement').
+      */
+    selectElement(element) {
+        this.drawBearing.selectElement(element);
+        this.draw();
+    }
+
+    /**
+    * Выбор номера активного тела качения для отображения.
+    * @method
+    * @memberof RadialBallBearing
+    * @param {number} numberSelected - Номер выбранного тела качения.
+    */
+    chooseRollingElement(numberSelected) {
+        if (this.drawBearing) {
+            this.drawBearing.numberSelectedRollingElement = numberSelected;
+        }
+    }
+
+    /**
+   * Добавление нового дефекта во внутреннее кольцо.
+   * @method
+   * @memberof RadialBallBearing
+   * @param {number} startAngle - Начальный угол дефекта.
+   * @param {number} finishAngle - Конечный угол дефекта.
+   */
+    newDefectInnerRing(startAngle, finishAngle) {
+        this.anglesNewDefectsInnerRing.push({ startAngle, finishAngle });
+    }
+
+    /**
+     * Добавление нового дефекта во внешнее кольцо.
+     * @method
+     * @memberof RadialBallBearing
+     * @param {number} startAngle - Начальный угол дефекта.
+     * @param {number} finishAngle - Конечный угол дефекта.
+     */
+    newDefectExternalRing(startAngle, finishAngle) {
+        this.anglesNewDefectsExternalRing.push({ startAngle, finishAngle });
+    }
+
+    /**
+     * Добавление нового дефекта в тело качения.
+     * @method
+     * @memberof RadialBallBearing
+     * @param {number} startAngle - Начальный угол дефекта.
+     * @param {number} finishAngle - Конечный угол дефекта.
+     * @param {number} numberRollingElement - Номер тела качения.
+     */
+    newDefectRollingElement(startAngle, finishAngle, numberRollingElement) {
+        this.anglesAndNumbersNewDefectRollingElement.push({ startAngle, finishAngle, numberRollingElement });
+    }
+
+    /**
+    * Добавление новой деформации (наклона) во внутреннее кольцо.
+    * @method
+    * @memberof RadialBallBearing
+    * @param {number} tiltDirection - Направление наклона.
+    * @param {number} angleDirection - Угол наклона.
+    */
+    newInnerRingDistortion(tiltDirection, angleDirection) {
+        this.tiltAndAngleInnerDirection = {
+            tiltDirection,
+            angleDirection
+        };
+        this.tiltAndAngleExternalDirection = null;
+        this.tiltMisalignment = null;
+    }
+
+    /**
+    * Добавление новой деформации (наклона) во внешнее кольцо.
+    * @method
+    * @memberof RadialBallBearing
+    * @param {number} tiltDirection - Направление наклона.
+    * @param {number} angleDirection - Угол наклона.
+    */
+    newExternalRingDistortion(tiltDirection, angleDirection) {
+        this.tiltAndAngleInnerDirection = null;
+        this.tiltAndAngleExternalDirection = {
+            tiltDirection,
+            angleDirection
+        };
+        this.tiltMisalignment = null;
+    }
+
+    /**
+    * Добавление новой несоосности кольца.
+    * @method
+    * @memberof RadialBallBearing
+    * @param {number} tilt - Значение несоосности.
+    */
+    newMisalignment(tilt) {
+        this.tiltAndAngleInnerDirection = null;
+        this.tiltAndAngleExternalDirection = null;
+        this.tiltMisalignment = tilt;
+    }
+
+    /**
+     * Отрисовка состояния подшипника.
+     * @method
+     * @memberof RadialBallBearing
+     */
+    draw() {
+        if (this.drawBearing) {
+            this.drawBearing.drawList();
+
+            if (this.statusCreateParams) {
+                const centerX = this.drawBearing.center().centerX;
+                const centerY = this.drawBearing.center().centerY;
+
+                // Рисуем границы
+                this.drawScalingConventions.borders(
+                    centerX,
+                    centerY,
+                    this.externalRingRadiusXExternalSide,
+                    this.externalRingRadiusYExternalSide,
+                    this.realExternalRingDiameter
+                );
+
+                // Рисуем внешнее кольцо
+                this.drawBearing.externalRing(
+                    centerX, centerY,
+                    this.rotationRing,
+                    this.angleOffsetShaft,
+                    this.externalRingRadiusXExternalSide,
+                    this.externalRingRadiusYExternalSide,
+                    this.externalRingRadiusXInnerSide,
+                    this.externalRingRadiusYInnerSide
+                );
+
+                // Рисуем внутреннее кольцо
+                this.drawBearing.innerRing(
+                    centerX, centerY,
+                    this.rotationRing,
+                    this.angleOffsetShaft,
+                    this.innerRingRadiusXExternalSide,
+                    this.innerRingRadiusYExternalSide,
+                    this.innerRingRadiusXInnerSide,
+                    this.innerRingRadiusYInnerSide
+                );
+
+                // Рисуем границы тел качения
+                this.drawBearing.rollingElementsBorders(
+                    centerX, centerY,
+                    this.rollingElementsExternalBorderRadiusX,
+                    this.rollingElementsExternalBorderRadiusY,
+                    this.rollingElementsInnerBorderRadiusX,
+                    this.rollingElementsInnerBorderRadiusY
+                );
+
+                // Рисуем тела качения
+                this.drawBearing.rollingElement(
+                    centerX, centerY,
+                    this.angleOffsetSeparator,
+                    this.separatorRadiusX,
+                    this.separatorRadiusY,
+                    this.numberOfRollingElements,
+                    this.angleOffsetRollingElement,
+                    this.rollingElementRadiusX,
+                    this.rollingElementRadiusY,
+                    this.rotationSign
+                );
+
+                // Рисуем дефекты на внутреннем кольце
+                this.drawDefectsBearing.innerRing(
+                    centerX, centerY,
+                    this.anglesNewDefectsInnerRing,
+                    this.rotationRing,
+                    this.angleOffsetShaft,
+                    this.rollingElementsInnerBorderRadiusX,
+                    this.rollingElementsInnerBorderRadiusY,
+                );
+
+                // Рисуем дефекты на внешнем кольце
+                this.drawDefectsBearing.externalRing(
+                    centerX, centerY,
+                    this.anglesNewDefectsExternalRing,
+                    this.rotationRing,
+                    this.angleOffsetShaft,
+                    this.rollingElementsExternalBorderRadiusX,
+                    this.rollingElementsExternalBorderRadiusY,
+                );
+
+                // Рисуем дефекты на телах качения
+                this.drawDefectsBearing.rollingElement(
+                    centerX, centerY,
+                    this.anglesAndNumbersNewDefectRollingElement,
+                    this.numberOfRollingElements,
+                    this.angleOffsetSeparator,
+                    this.separatorRadiusX,
+                    this.separatorRadiusY,
+                    this.angleOffsetRollingElement,
+                    this.rollingElementRadiusX,
+                    this.rollingElementRadiusY,
+                    this.rotationSign
+                );
+
+                // Рисуем дефекты искривления на внутреннем кольце
+                this.drawDefectsBearing.innerRingDistortion(
+                    centerX, centerY,
+                    this.tiltAndAngleInnerDirection,
+                    this.innerRingRadiusXInnerSide,
+                    this.innerRingRadiusYInnerSide,
+                    this.rollingElementsInnerBorderRadiusX,
+                    this.rollingElementsInnerBorderRadiusY
+                );
+
+                // Рисуем дефекты искривления на внешнем кольце
+                this.drawDefectsBearing.externalRingDistortion(
+                    centerX, centerY,
+                    this.tiltAndAngleExternalDirection,
+                    this.rollingElementsExternalBorderRadiusX,
+                    this.rollingElementsExternalBorderRadiusY,
+                    this.externalRingRadiusXExternalSide,
+                    this.externalRingRadiusYExternalSide
+                );
+
+                // Рисуем дефекты наклона
+                this.drawDefectsBearing.misalignment(
+                    centerX, centerY,
+                    this.tiltMisalignment,
+                    this.innerRingRadiusXInnerSide,
+                    this.innerRingRadiusYInnerSide,
+                    this.rollingElementsInnerBorderRadiusX,
+                    this.rollingElementsInnerBorderRadiusY,
+                    this.externalRingRadiusXExternalSide,
+                    this.externalRingRadiusYExternalSide,
+                    this.rollingElementsExternalBorderRadiusX,
+                    this.rollingElementsExternalBorderRadiusY
+                );
+
+                // Рисуем векторную нагрузку
+                this.drawVectorLoad.vectorLoad(
+                    centerX,
+                    centerY,
+                    this.innerRingRadiusXInnerSide,
+                    this.innerRingRadiusYInnerSide,
+                    this.vectorLoad
+                );
+            }
+        }
+    }
+
+    /**
+    * Рассчет шага анимации для вала, сепаратора и тел качения.
+    * @method
+    * @memberof RadialBallBearing
+    * @private
+    */
+    _animationStepCalculation() {
+
+        // Вычисляем шаг анимации в градусах для сепаратора
+        const stepSeparator = (this.separatorFrequency) * 360 * this.animationSpeed / 1000;
+
+        // Вычисляем шаг анимации в градусах для вала
+        const stepShaft = (this.shaftFrequency) * 360 * this.animationSpeed / 1000;
+
+        // Вычисляем шаг анимации в градусах для тел качения
+        const stepRollingElement = (this.rollingElementFrequency) * 360 * this.animationSpeed / 1000;
+
+        // Обновляем угол вала с учетом шага
+        this.angleOffsetShaft = (this.angleOffsetShaft + stepShaft) % 360;
+
+        // Обновляем угол сепаратора с учетом шага
+        this.angleOffsetSeparator = (this.angleOffsetSeparator + stepSeparator) % 360;
+
+        // Обновляем угол тела качения с учетом шага
+        this.angleOffsetRollingElement = (this.angleOffsetRollingElement + stepRollingElement) % 360;
+    }
+
+    /**
+     * Запуск или остановка анимации.
+     * @method
+     * @memberof RadialBallBearing
+     * @param {boolean} statusAnimation - Флаг запуска (true) или остановки (false) анимации.
+     */
+    animation(statusAnimation) {
+        // Если требуется запустить анимацию и она еще не запущена
+        if (statusAnimation &amp;&amp; !this.animationInterval) {
+            this.animationSpeed = 30; // Скорость анимации (в миллисекундах)
+            this.animationInterval = setInterval(() => {
+                this._animationStepCalculation(); // Выполняем расчет шага анимации
+                this.draw(); // Отрисовываем текущее состояние
+            }, this.animationSpeed); // Устанавливаем интервал анимации
+        }
+        else {
+            // Если требуется остановить анимацию и она запущена
+            clearInterval(this.animationInterval); // Останавливаем интервал анимации
+            this.animationInterval = false; // Устанавливаем флаг остановки анимации
+        }
+    }
+
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Wed Oct 11 2023 12:12:39 GMT+0300 (Москва, стандартное время) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

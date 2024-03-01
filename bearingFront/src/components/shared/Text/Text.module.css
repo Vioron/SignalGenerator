@@ -1,0 +1,36 @@
+.color {
+     /* padding-left: 4%; */
+     padding-bottom: 5px;
+     padding-top: 10px;
+     margin-right: 3px;
+     font-size: 12px;
+     font-weight: 600;
+     /* width: 50%; */
+     font-family: 'Poppins', sans-serif;
+     background: #806491;
+     /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea); */
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer;
+}
+
+.colorPriority {
+      /* padding-left: 4%; */
+      padding-bottom: 5px;
+      padding-top: 10px;
+      margin-right: 3px;
+      font-size: 12px;
+      font-weight: 600;
+      /* width: 50%; */
+      font-family: 'Poppins', sans-serif;
+      background:  #02315E;
+      /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea); */
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer;
+}
+
+
+

@@ -1,0 +1,37 @@
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+
+    padding-top: 20px;
+
+}
+
+.inputs{
+    height: 75%; /* высота нашего блока */
+    width: 100%; /* ширина нашего блока */
+    overflow: auto;
+}
+
+@media (max-width: 1440px) {
+    .button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 35%;
+        padding-bottom: 20%;
+    
+    }
+    
+    .inputs{
+        height: 45%; /* высота нашего блока */
+        width: 100%; /* ширина нашего блока */
+        overflow: auto;
+    }
+    
+}

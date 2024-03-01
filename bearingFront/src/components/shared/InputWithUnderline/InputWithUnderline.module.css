@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    align-items: center;
+    height: 47px;
+}
+
+.inputData {
+    padding-right: 4%;
+    padding-left: 4%;
+    position: relative;
+    transition: all 0.4s;
+
+    /* overflow: hidden; */
+    height: 3% !important;
+    width: 100% !important;
+}
+
+.inputData:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+    /* border: none; */
+    left: 0;
+}
+
+.input {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+    background: none;
+
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+/* .input:active,
+:focus,
+:not(:invalid) {
+    border: none;
+} */
+
+.input:focus~label,
+.input:valid~label {
+    transform: translateY(30%);
+    font-size: 14px;
+    color: #3498db;
+}
+
+.inputData label {
+    transform: translateY(170%);
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputData .underline {
+    border: none;
+    bottom: 0;
+    height: 2px;
+    width: 100% !important;
+}
+
+.inputData .underline:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 92%;
+    border: none;
+    background: #3498db;
+    outline: none;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input:focus~.underline:before,
+.input:valid~.underline:before {
+    transform: scaleX(1);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.inputCorrect {
+    color: black;
+}
+
+.inputNotCorrect {
+    color: red;
+}
