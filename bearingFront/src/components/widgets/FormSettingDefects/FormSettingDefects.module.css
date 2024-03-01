@@ -1,0 +1,13 @@
+.container {
+    overflow: auto;
+    height: 90%;
+}
+
+.defectItemFormList {
+    overflow: auto;
+    height: 70%;
+}
+
+.additionAndList {
+    margin-top: 15px;
+}

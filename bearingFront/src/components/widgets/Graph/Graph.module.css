@@ -1,0 +1,88 @@
+/* .divGraph {
+  width: 84vw;
+  height: 100px;
+}
+
+@media (max-width: 1100px) {
+  .divGraph {
+      width: 90vw;
+      height: 100px;
+      margin-bottom: 40px;
+  }
+} */
+
+.divGraphButtons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  /* Добавляем плавный скроллинг */
+}
+
+/* Добавляем полосу прокрутки */
+.divGraphButtons::-webkit-scrollbar {
+  height: 15px;
+}
+
+.divGraphButtons::-webkit-scrollbar-thumb {
+  background-color: rgb(231, 231, 231);
+  border-radius: 6px;
+}
+
+.divGraphButtons::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Стилизация ползунка
+.divGraphButtons::-webkit-scrollbar {
+  width: 10px; 
+  height: 5px;
+}
+
+.divGraphButtons::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 6px; 
+}
+
+.divGraphButtons::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+  border-radius: 8px; 
+} */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  width: 220px;
+  min-width: 220px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.notActive {
+  border: 1px solid black;
+  color: black;
+}
+
+.active {
+  border: 1px solid #2F70AF;
+  color: #2F70AF;
+}
+
+.stopTitle {
+  margin: auto;
+  font-size: 15px;
+  color: black;
+
+}

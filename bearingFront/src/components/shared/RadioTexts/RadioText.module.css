@@ -1,0 +1,57 @@
+.textActive {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea); */
+    background: #2F70AF;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+.textActive .underline {
+    margin: auto;
+    border: none;
+    bottom: 0;
+    height: 2px;
+    width: 65% !important;
+    background: #2F70AF;
+    /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea); */
+
+}
+
+
+.textNotActive {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    background: #2F70AF;
+    /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.textNotDisabled {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, rgba(128, 128, 128, 0.500), rgba(0, 0, 0, 0.500));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}

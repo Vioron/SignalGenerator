@@ -1,0 +1,28 @@
+@keyframes color {
+    0% {
+        background: #9f01ea
+    }
+
+    25% {
+        background: #5B42F3;
+    }
+
+    50% {
+        background: #00DDEB;
+    }
+
+    75% {
+        background: #5B42F3;
+    }
+
+    100% {
+        background: #9f01ea
+    }
+}
+
+
+
+.button {
+    padding-top: 2%;
+    padding-left: 3%;
+}
